@@ -45,4 +45,4 @@ def find_a(strings)
     end
   end
   new_array
-end 
+end
