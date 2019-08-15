@@ -24,7 +24,7 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(string)
+def kesha_maker(strings)
   array = []
 string.each do |word|
   new_array = word.chars
@@ -36,3 +36,13 @@ string.each do |word|
 end
 array
 end
+
+def find_a(strings)
+  new_array = []
+  strings.map do |word|
+    if word_start_with?("a")
+      new_array << word
+    end
+  end
+  new_array
+end 
