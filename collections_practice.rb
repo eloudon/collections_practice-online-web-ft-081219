@@ -59,7 +59,7 @@ def add_s(words)
   words.each_with_index.collect do |element, index|
     if index != 1
       element + "s"
-end 
+end
 end
 element
 end 
