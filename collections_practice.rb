@@ -28,7 +28,9 @@ def kesha_maker(string)
   array = []
 string.each do |word|
   new_array = word.chars
+  #When changing letters use chars(characters) letters will not work
   new_array[2].replace("$")
+  #index starts at 0 so 3rd letter = position 2
   new_word = new_array.join
   array << new_word
 end
