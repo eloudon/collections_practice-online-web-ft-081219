@@ -25,4 +25,4 @@ def reverse_array(array)
 end
 
 def kesha_maker(string)
-  array = {}
+  array = []
