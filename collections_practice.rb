@@ -40,7 +40,7 @@ end
 def find_a(strings)
   new_array = []
   strings.map do |word|
-    if word_start_with?("a")
+    if word.start_with?("a")
       new_array << word
     end
   end
