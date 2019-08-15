@@ -26,7 +26,7 @@ end
 
 def kesha_maker(strings)
   array = []
-string.each do |word|
+strings.each do |word|
   new_array = word.chars
   #When changing letters use chars(characters) letters will not work
   new_array[2].replace("$")
