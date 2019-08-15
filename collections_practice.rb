@@ -30,7 +30,7 @@ string.each do |word|
   new_array = word.letters
   new_array[2].replace("$")
   new_word = new_array.join
-  new_array << new_word
+  array << new_word
 end
-new_array
+array
 end
