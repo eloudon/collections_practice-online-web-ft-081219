@@ -46,3 +46,11 @@ def find_a(strings)
   end
   new_array
 end
+
+def sum_array(numbers)
+  i = 0
+  numbers.each do |num|
+    i += num
+  end
+  i
+end
