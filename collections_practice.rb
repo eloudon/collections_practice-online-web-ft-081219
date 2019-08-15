@@ -26,3 +26,6 @@ end
 
 def kesha_maker(string)
   array = []
+string.each do |word|
+  new_array = word.letters
+  new_array[2]
